@@ -31,6 +31,7 @@ Key features:
 ---
 
 ## 📂 Folder Structure
+
 ```
 .
 ├── index.html
@@ -67,27 +68,24 @@ Key features:
 
 ### 1️⃣ Compile TypeScript
 
-Make sure TypeScript is installed globally:
+### Make sure TypeScript is installed globally:
 
-```bash
+```
 tsc
+```
 
+### 2️⃣ Start the Static Server
+
+### From the project root directory:
+
+```
 npx serve
+```
 
-From the project root directory:
+### 3️⃣ Open in Browser
 
-npx serve
+### Open the provided URL in your browser:
 
-
-Open the provided URL in your browser (usually):
-
+```
 http://localhost:3000
-
-📄 Available Pages
-
-/index.html – Main entry point
-
-/pages/flights.html – Flights view
-
-/pages/orders.html – Orders view
 ```
