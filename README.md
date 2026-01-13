@@ -31,7 +31,7 @@ Key features:
 ---
 
 ## 📂 Folder Structure
-
+```
 .
 ├── index.html
 ├── pages
@@ -61,6 +61,7 @@ Key features:
 │ │ └── newOrderCard.js
 ├── tsconfig.json
 └── README.md
+```
 
 ## ▶️ How to Run the Project
 
