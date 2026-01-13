@@ -1,0 +1,89 @@
+.flight-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 12px 0;
+  width: 100%; /* take full width of container */
+  max-width: 500px; /* slightly wider than before */
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s;
+  box-sizing: border-box; /* include padding in width */
+}
+
+.flight-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.flight-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 12px;
+  gap: 8px;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+}
+
+.flight-info div {
+  margin-bottom: 6px;
+  font-size: 0.95em;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.flight-number {
+  color: #0070f3;
+}
+
+.flight-destination {
+  color: #555;
+}
+
+/* Inputs */
+.flight-card input[type='text'],
+.flight-card input[type='date'],
+.flight-card input[type='time'],
+.flight-card input[type='number'] {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9em;
+  flex: 1; /* take available space */
+  min-width: 100px; /* avoid too small on narrow screens */
+  box-sizing: border-box;
+}
+
+/* Buttons */
+.flight-card button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-right: 8px;
+  transition: background 0.2s;
+}
+
+.flight-card .save-flight-btn {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+.flight-card .save-flight-btn:hover {
+  background-color: #005ec2;
+}
+
+.flight-card .cancel-flight-btn {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.flight-card .cancel-flight-btn:hover {
+  background-color: #c0c0c0;
+}

@@ -1,0 +1,62 @@
+/* --- Page Reset / Body --- */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- Page Heading --- */
+h1 {
+  color: #333;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* --- Flights Container --- */
+#flights-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center; /* center cards horizontally */
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* --- Add Flight Button --- */
+#add-flight-btn {
+  padding: 10px 18px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #0070f3;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+#add-flight-btn:hover {
+  background-color: #005ec2;
+  transform: translateY(-2px);
+}
+
+/* --- Optional: Responsive Adjustments --- */
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  #flights-container {
+    gap: 12px;
+  }
+
+  #add-flight-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

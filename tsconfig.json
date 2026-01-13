@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Output JS version
+    "module": "ESNext", // Proper ES module output for browsers
+    "outDir": "./Scripts/dist", // All compiled JS files go here
+    "rootDir": "./Scripts", // Root of your TS files
+    "strict": true, // Enable type checking
+    "esModuleInterop": true, // Allow default imports
+    "moduleResolution": "node", // Module resolution strategy
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["Scripts/**/*.ts"],
+  "exclude": ["node_modules"]
+}
